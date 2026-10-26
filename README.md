@@ -49,11 +49,6 @@ Sistem ini dibangun murni menggunakan **Native PHP** tanpa framework pihak ketig
    - Toggle instan `[ID | EN]` pada header navigasi dan halaman login.
    - Seluruh teks, label tabel, placeholder, dan notifikasi error/sukses dimuat dari kamus asosiatif (`Lang/id.php` dan `Lang/en.php`).
 
-5. **Pemberitahuan Flash & Sanitasi URL:**
-   - Feedback notifikasi aksi (`msg=created`, `msg=updated`, `msg=deleted`, `msg=logged_out`).
-   - Tombol *dismiss* interaktif (`✕`).
-   - Pembersihan otomatis parameter URL melalui `window.history.replaceState` agar pesan notifikasi tidak berulang saat halaman di-*refresh*.
-
 ---
 
 ## Struktur Direktori Proyek
